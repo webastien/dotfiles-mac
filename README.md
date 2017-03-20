@@ -1,12 +1,15 @@
 # Dot files for Mac OS
-Files I place in my Mac home folder computers.
+Files I put in my Mac computers' home folder.
 
-## Notes: (for you and me)
-* All (non-dot) files here must be renammed with a dot at the beginning, and placed in the home directory. (Except README.md)
-* My `.vim` directory and `.vimrc` file are not here, but in another repository: [Webastien Vim configuration](https://github.com/webastien/vim).
-* **This is incomplete**, because: Some of those files contains specific / private things, but push it anyway on github to keep a trace.
-* The `bash_profile` file references another dot file I didn't include in this repository: `.git-completion.bash`, which allows `git` command auto-completion. it can be downloaded from [Git repository](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash).
-* The `.gitconfig` file is also incomplete because I don't want to pubish my settings like username and email here.
-* `.bash_sessions_disable` is a personal choice (for now), because one of my machines crash often and I got lots of files in `.bash_sessions`.
-* On linux machine, some parts of `.bash_profile` should be in a `.bashrc`
+## Notes:
+All files here (except README.md and eventually Github repository relative files) must be renamed before being added to the home folder: Example, `bash_profile` has to be placed in `~/.bash_profile`.
 
+`.bash_sessions_disable` is (for now) a personal choice, because one of my machines crashes often, and I got tons of files in `.bash_sessions`... Maybe I'll re-activate bash sessions later.
+
+### Missing files
+* I do not include personal / security files (like my ssh keys) for reasons.
+* My `.vim` directory and `.vimrc` file have their dedicated repository: [webastien-vim](https://github.com/webastien/vim).
+* The `bash_profile` file references [.git-completion.bash](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash), which allows `git` command auto-completion.
+
+### SSH configuration
+See the [ssh/config.d](https://github.com/webastien/dotfiles-mac/tree/master/ssh/config.d) structure and README.md file inside.
